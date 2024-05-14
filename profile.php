@@ -34,6 +34,7 @@ $result = $query->get_result()->fetch_assoc();
 //echo "<pre>";
 //print_r($result);
 
+//zebranie danych z SQL i przesłanie na stronę
 $firstName = $result['firstName'];
 $lastName = $result['lastName'];
 $description = $result['description'];
