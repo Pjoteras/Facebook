@@ -1,3 +1,15 @@
+<?php
+require_once('class/User.class.php');
+
+if(isset($_REQUEST['email'])&& isset($_REQUEST['password'])) {
+    //wysłano formularz - przechwyć i obrób dane
+    $email = $_REQUEST['email'];
+    $password = $_REQUEST['password'];
+    //wywołujemy metodę klasy
+    
+    $result = User::Register($email, $password);
+}
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
