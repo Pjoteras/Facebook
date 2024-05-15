@@ -23,7 +23,7 @@ if(isset($_REQUEST['email'])&& isset($_REQUEST['password'])) {
 <div id="container">
     <h1 class="text-center mt-5 mb-5">Rejestracja</h1>
         <div id="loginFrom" class="col-4 offset-4 mt-5">
-            <form action="rejestracja.php" method="post">
+            <form action="register.php" method="post">
                 <label for="emailInput" class="from-label">Adres e-mail:</label>
                 <input type="email" class="from-controll mb-3" name="email" id="emailInput">
                 <label for="passwordInput" class="from-label">Haslo:</label>
