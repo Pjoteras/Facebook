@@ -5,7 +5,7 @@ class User{
 
      static function Register( string $email, string $password) : bool{
              //poniższa funkcja odpowiada za dodanie użytkownika do właściwej tabeli w bazie danych
-            //user{id INT, email VARCHAR(128), password VARCHAR(128)}
+            
 
             //skonwertuj hasło do hasha  
             $passwordHash =  password_hash($password, PASSWORD_ARGON2I);
@@ -17,7 +17,7 @@ class User{
             $sql = "INSERT INTO user (email, password) VALUES (?, ?)";
             //zapytanie
             $q = $db->prepare($sql);
-            //podstaw dane
+            
             $q->bind_param("ss", $email, $passwordHash);
 
             //wyślij zapytanie
