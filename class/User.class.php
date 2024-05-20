@@ -28,7 +28,7 @@ class User{
         static function Login(string $email, string $password) : bool {
         //poniższa funkcja odpowiada za logowanie użytkownika
         //połączenie do bazy danych
-        $db = new mysqli('localhost', 'root', '', 'friendbook');
+        $db = new mysqli('localhost', 'root', '', 'profile');
         //tworzymy w języku SQL zapytanie, tam gdzie chcemy uzyć
         //zmiennych wstawiamy "?"
         $sql = "SELECT * FROM user WHERE email = ?";
