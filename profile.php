@@ -33,9 +33,20 @@ if(isset($_REQUEST['profileID'])) {
 </head>
 
 <body>
-<h1>Profil użytkownika</h1>
-Imię i nazwisko: <?php echo $p->getFullName(); ?><br>
-
-Zdjęcie profilowe: <img src="<?php echo $p->getProfilePhotoURL(); ?>">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h1 class="card-title">Profil użytkownika</h1>
+                        <p class="card-text">Imię i nazwisko: <?php echo $p->getFullName();?></p>
+                        <img src="<?php echo $p->getProfilePhotoURL();?>" class="img-fluid rounded-circle mb-3" alt="Profile photo">
+                        <a href="main.php" class="btn btn-primary w-100">Powrót</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

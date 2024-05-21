@@ -2,6 +2,8 @@
 //zaimportuj kod klasy
 require_once('class/User.class.php');
 
+session_start();
+
 if (isset($_REQUEST['email']) && isset($_REQUEST['password'])) {
     //wysłano formularz - przechwyć i obrób dane
     $email = $_REQUEST['email'];
@@ -37,6 +39,9 @@ if (isset($_REQUEST['email']) && isset($_REQUEST['password'])) {
 
                 <button type="submit" class="btn btn-primary w-100 mt-3">Zaloguj</button>
             </form>
+            <a href="main.php">
+                <button class="btn btn-primary w-100 mt-3">Powrót</button>
+                </a>
             <?php
             if (isset($result)) {
                 if ($result) {
@@ -49,6 +54,10 @@ if (isset($_REQUEST['email']) && isset($_REQUEST['password'])) {
             ?>
         </div>
     </div>
+    <?php
+    echo "<pre>";
+    var_dump($_SESSION);
+    ?>
 </body>
 
 </html>
