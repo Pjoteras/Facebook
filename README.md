@@ -2,9 +2,10 @@
 
 ## Jest to plik ReadMe na podwyższenie oceny na koniec roku!
 
-Projekt jaki tutaj tworzę, to strona wyglądowo i użytkowo przypominająca w dużym stopniu platformę Facebook.
-Tworzona jest w celu nauki i samorozwoju, jak i zaliczenia w szkole. Wiąże swoją przyszłość z programowaniem i tworzeniem projektów o dużym zasięgu.
-Indywidualnie poszukuje wiedzy i poszerzam swoję umiejętnośći w tym kierunku
+--Projekt jaki tutaj tworzę, to strona wyglądowo i użytkowo przypominająca w dużym stopniu platformę Facebook--
+-- Tworzona jest w celu nauki i samorozwoju, jak i zaliczenia w szkole --
+--Wiąże swoją przyszłość z programowaniem i tworzeniem projektów o dużym zasięgu.--
+--Indywidualnie poszukuje wiedzy i poszerzam swoję umiejętnośći w tym kierunku--
 
 Po więcej pytań kontaktuj się ze mną z linków poniżej :)
 
